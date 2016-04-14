@@ -1,0 +1,24 @@
+[ 2016-04-13T15:16:24+08:00 ] ::1 /ThinkCMFX2.1.0/api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:18:33+08:00 ] ::1 /ThinkCMFX2.1.0/api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:18:46+08:00 ] ::1 /ThinkCMFX2.1.0/Api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:19:25+08:00 ] ::1 /ThinkCMFX2.1.0/Api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:19:26+08:00 ] ::1 /ThinkCMFX2.1.0/Api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:20:17+08:00 ] ::1 /ThinkCMFX2.1.0/Api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:20:24+08:00 ] ::1 /ThinkCMFX2.1.0/Api/test/index.php?a=get_users
+ERR: 无法加载控制器:Test
+
+[ 2016-04-13T15:30:59+08:00 ] ::1 /ThinkCMFX2.1.0/Api/test/index.php?a=sp_sql_posts
+ERR: 无法加载控制器:Test
+
