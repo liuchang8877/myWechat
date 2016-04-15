@@ -1,0 +1,31 @@
+[ 2016-04-15T14:19:18+08:00 ] ::1 /thinkcmfx2.1.0/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-04-15T16:00:50+08:00 ] ::1 /thinkcmfx2.1.0/index.php?g=Portal&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-04-15T16:01:23+08:00 ] ::1 /thinkcmfx2.1.0/index.php?g=&m=AdminPost&a=edit&term=&id=3
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-04-15T16:01:57+08:00 ] ::1 /thinkcmfx2.1.0/index.php?g=&m=AdminPost&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+SQL: SHOW COLUMNS FROM `cmf_posts` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cmf_terms` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `cmf_term_relationships` [ RunTime:0.0020s ]
+SQL: DELETE FROM `cmf_term_relationships` WHERE `object_id` = 3 AND `term_id` NOT IN ('3') [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_term_relationships` WHERE `object_id` = 3 AND `term_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_term_relationships` SET `status`='1' WHERE `object_id` = 3 AND `term_id` = '3' [ RunTime:0.0159s ]
+SQL: UPDATE `cmf_posts` SET `post_title`='333',`post_keywords`='33',`post_source`='33',`post_excerpt`='33',`post_modified`='2016-04-13 11:15:45',`post_status`='1',`istop`='0',`recommended`='0',`post_content`='<p><embed id=\"xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd\" type=\"application/thunder_download_plugin\" height=\"0\" width=\"0\"/>33333<img src=\"http://localhost/thinkcmfx2.1.0/data/upload/ueditor/20160415/57109fe9b1299.png\" title=\"pl@2x.png\" alt=\"pl@2x.png\"/><img src=\"http://localhost/thinkcmfx2.1.0/data/upload/ueditor/20160415/57109ff2cc77b.png\" title=\"tel@2x.png\" alt=\"tel@2x.png\"/></p>',`smeta`='{\"thumb\":\"20160415\\/5710874cd7f25.png\",\"photo\":[{\"url\":\"20160415\\/5710879d2f14e.png\",\"alt\":\"cir_video@2x\"}]}' WHERE `id` = '3' [ RunTime:0.0140s ]
+
+[ 2016-04-15T16:01:59+08:00 ] ::1 /thinkcmfx2.1.0/index.php?g=&m=AdminPost&a=index&menuid=7
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2016-04-15T16:01:59+08:00 ] ::1 /thinkcmfx2.1.0/index.php?g=&m=AdminPost&a=index
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+

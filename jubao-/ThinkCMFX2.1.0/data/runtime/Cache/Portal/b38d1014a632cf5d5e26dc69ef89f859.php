@@ -21,15 +21,15 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
-	<link rel="icon" href="/ThinkCMFX2.1.0/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="/ThinkCMFX2.1.0/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
-    <link href="/ThinkCMFX2.1.0/themes/simplebootx/Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
-    <link href="/ThinkCMFX2.1.0/themes/simplebootx/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/ThinkCMFX2.1.0/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<link rel="icon" href="/thinkcmfx2.1.0/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/thinkcmfx2.1.0/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+    <link href="/thinkcmfx2.1.0/themes/simplebootx/Public/simpleboot/themes/simplebootx/theme.min.css" rel="stylesheet">
+    <link href="/thinkcmfx2.1.0/themes/simplebootx/Public/simpleboot/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/thinkcmfx2.1.0/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
 	<!--[if IE 7]>
-	<link rel="stylesheet" href="/ThinkCMFX2.1.0/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" href="/thinkcmfx2.1.0/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
 	<![endif]-->
-	<link href="/ThinkCMFX2.1.0/themes/simplebootx/Public/css/style.css" rel="stylesheet">
+	<link href="/thinkcmfx2.1.0/themes/simplebootx/Public/css/style.css" rel="stylesheet">
 	<style>
 		/*html{filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(1);}*/
 		#backtotop{position: fixed;bottom: 50px;right:20px;display: none;cursor: pointer;font-size: 50px;z-index: 9999;}
@@ -37,7 +37,7 @@
 		#main-menu-user li.user{display: none}
 	</style>
 	
-		<link href="/ThinkCMFX2.1.0/themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
+		<link href="/thinkcmfx2.1.0/themes/simplebootx/Public/css/slippry/slippry.css" rel="stylesheet">
 		<style>
 			.caption-wraper{position: absolute;left:50%;bottom:2em;}
 			.caption-wraper .caption{
@@ -76,7 +76,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </a>
-       <a class="brand" href="/ThinkCMFX2.1.0/"><img src="/ThinkCMFX2.1.0/themes/simplebootx/Public/images/logo.png"/></a>
+       <a class="brand" href="/thinkcmfx2.1.0/"><img src="/thinkcmfx2.1.0/themes/simplebootx/Public/images/logo.png"/></a>
        <div class="nav-collapse collapse" id="main-menu">
        	<?php
  $effected_id="main-menu"; $filetpl="<a href='\$href' target='\$target'>\$label</a>"; $foldertpl="<a href='\$href' target='\$target' class='dropdown-toggle' data-toggle='dropdown'>\$label <b class='caret'></b></a>"; $ul_class="dropdown-menu" ; $li_class="" ; $style="nav"; $showlevel=6; $dropdown='dropdown'; echo sp_get_menu("main",$effected_id,$filetpl,$foldertpl,$ul_class,$li_class,$style,$showlevel,$dropdown); ?>
@@ -84,7 +84,7 @@
 		<ul class="nav pull-right" id="main-menu-user">
 			<li class="dropdown user login">
 	            <a class="dropdown-toggle user" data-toggle="dropdown" href="#">
-	            <img src="/ThinkCMFX2.1.0/themes/simplebootx//Public/images/headicon.png" class="headicon"/>
+	            <img src="/thinkcmfx2.1.0/themes/simplebootx//Public/images/headicon.png" class="headicon"/>
 	            <span class="user-nicename"></span><b class="caret"></b></a>
 	            <ul class="dropdown-menu pull-right">
 	               <li><a href="<?php echo U('user/center/index');?>"><i class="fa fa-user"></i> &nbsp;个人中心</a></li>
@@ -94,7 +94,7 @@
           	</li>
           	<li class="dropdown user offline">
 	            <a class="dropdown-toggle user" data-toggle="dropdown" href="#">
-	           		<img src="/ThinkCMFX2.1.0/themes/simplebootx//Public/images/headicon.png" class="headicon"/>登录<b class="caret"></b>
+	           		<img src="/thinkcmfx2.1.0/themes/simplebootx//Public/images/headicon.png" class="headicon"/>登录<b class="caret"></b>
 	            </a>
 	            <ul class="dropdown-menu pull-right">
 	               <li><a href="<?php echo U('api/oauth/login',array('type'=>'sina'));?>"><i class="fa fa-weibo"></i> &nbsp;微博登录</a></li>
@@ -173,7 +173,7 @@
 				<div class="header">
 					<div class="item-image">
 						<a href="<?php echo leuu('article/index',array('id'=>$vo['tid'],'cid'=>$vo['term_id']));?>">
-							<?php if(empty($smeta['thumb'])): ?><img src="/ThinkCMFX2.1.0/themes/simplebootx/Public/images/default_tupian1.png" class="img-responsive" alt="<?php echo ($vo["post_title"]); ?>"/>
+							<?php if(empty($smeta['thumb'])): ?><img src="/thinkcmfx2.1.0/themes/simplebootx/Public/images/default_tupian1.png" class="img-responsive" alt="<?php echo ($vo["post_title"]); ?>"/>
 							<?php else: ?> 
 								<img src="<?php echo sp_get_asset_upload_path($smeta['thumb']);?>" class="img-responsive img-thumbnail" alt="<?php echo ($vo["post_title"]); ?>" /><?php endif; ?>
 						</a>
@@ -219,7 +219,7 @@
 <script type="text/javascript">
 //全局变量
 var GV = {
-    DIMAUB: "/ThinkCMFX2.1.0/",
+    DIMAUB: "/thinkcmfx2.1.0/",
     JS_ROOT: "public/js/",
     TOKEN: ""
 };
@@ -227,10 +227,10 @@ var GV = {
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/ThinkCMFX2.1.0/public/js/jquery.js"></script>
-    <script src="/ThinkCMFX2.1.0/public/js/wind.js"></script>
-    <script src="/ThinkCMFX2.1.0/themes/simplebootx/Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/ThinkCMFX2.1.0/public/js/frontend.js"></script>
+    <script src="/thinkcmfx2.1.0/public/js/jquery.js"></script>
+    <script src="/thinkcmfx2.1.0/public/js/wind.js"></script>
+    <script src="/thinkcmfx2.1.0/themes/simplebootx/Public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/thinkcmfx2.1.0/public/js/frontend.js"></script>
 	<script>
 	$(function(){
 		$('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); });
@@ -244,7 +244,7 @@ var GV = {
 		$.post("<?php echo U('user/index/is_login');?>",{},function(data){
 			if(data.status==1){
 				if(data.user.avatar){
-					$("#main-menu-user .headicon").attr("src",data.user.avatar.indexOf("http")==0?data.user.avatar:"/ThinkCMFX2.1.0/data/upload/avatar/"+data.user.avatar);
+					$("#main-menu-user .headicon").attr("src",data.user.avatar.indexOf("http")==0?data.user.avatar:"/thinkcmfx2.1.0/data/upload/avatar/"+data.user.avatar);
 				}
 				
 				$("#main-menu-user .user-nicename").text(data.user.user_nicename!=""?data.user.user_nicename:data.user.user_login);
@@ -292,7 +292,7 @@ var GV = {
 	</script>
 
 
-<script src="/ThinkCMFX2.1.0/themes/simplebootx/Public/js/slippry.min.js"></script>
+<script src="/thinkcmfx2.1.0/themes/simplebootx/Public/js/slippry.min.js"></script>
 <script>
 $(function() {
 	var demo1 = $("#homeslider").slippry({

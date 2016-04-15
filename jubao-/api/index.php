@@ -33,7 +33,8 @@ if(!is_numeric($page) || !is_numeric($pageSize)){
 }
 
 $action = $_REQUEST['action'];
-
+$data   = $_REQUEST['data'];
+    
 switch($action){
     case 'pageOne':
         $sql = "SELECT * FROM `cmf_posts` as posts ,cmf_term_relationships as term  
@@ -42,6 +43,13 @@ switch($action){
 
         echo json_encode($query,true);
 
+        break;
+        
+    case 'getPageById':
+        $sql = "SELECT * FROM `cmf_posts` as posts WHERE posts.id = ".$data;
+        $query = $mysql->get_all($sql);
+        
+        echo json_encode($query,true);
         break;
     default:
     return Response::show('400','没有该请求方法');
